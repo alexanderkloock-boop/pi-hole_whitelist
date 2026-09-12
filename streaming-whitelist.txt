@@ -1,0 +1,48 @@
+# Streaming Allowlist DE
+# Netflix, Disney+, Prime Video, Max/HBO Max, Sky Go, RTL+
+# Exact domains only. Pi-hole V6 compatible.
+#
+# Sources/validation:
+# Netflix: KeysAU Pi-hole allowlist (updated 2026-06)
+# Disney+: tested August 2026 (Edward Angert)
+# Max/Netflix: generally work without dedicated allowlisting; these core domains are conservative.
+# Sky/RTL/Prime: conservative service domains; add domains from Query Log if a specific app still fails.
+
+# Netflix
+api-global.netflix.com
+appboot.netflix.com
+secure.netflix.com
+netflix.com
+nflxvideo.net
+nflximg.com
+nflxext.com
+nflxso.net
+
+# Disney+
+disneyplus.com
+registerdisney.go.com
+global.edge.bamgrid.com
+disney.demdex.net
+geolocation.onetrust.com
+
+# Prime Video
+primevideo.com
+amazonvideo.com
+aiv-cdn.net
+aiv-delivery.net
+
+# Max / HBO Max
+max.com
+hbomax.com
+hbo.com
+
+# Sky Go
+sky.de
+skygo.sky.de
+sky.com
+
+# RTL+
+rtlplus.com
+rtl.de
+vox.de
+ntv.de
